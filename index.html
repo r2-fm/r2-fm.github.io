@@ -159,8 +159,10 @@
             }
 
             .buttons {
-                margin-top: 0px;
-                position: relative;
+                position: absolute;
+                bottom: -20px;
+                left: 50%;
+                transform: translateX(-50%);
                 z-index: 3;
                 /* Ensure button stays above overlay */
             }
@@ -254,7 +256,7 @@
                             href="https://forms.gle/fTmmVGqSxbDcZ6149">
                     application form</a> to join us.
                         <li>
-                            <span style="font-weight: bold;">Call for papers:</span> Workshop submission portal open at OpenReview: <a
+                            <span style="font-weight: bold;">Call for papers:</span> Submission portal open at OpenReview: <a
                                 href="https://openreview.net/group?id=ICML.cc/2025/Workshop/R2-FM">https://openreview.net/group?id=ICML.cc/2025/Workshop/R2-FM</a>
                         </li>
                         </p>
@@ -403,9 +405,9 @@
                                     <h1 style="font-family: 'Georgia', serif; font-size: 2.5rem; margin-bottom: 1.5rem; color: #2c5282; font-weight: 600;">Submission Site</h1>
 
                                     <p class="large text-muted">
-                                        Submit papers through the Reliable and Responsible Foundation Models Submission Portal on OpenReview (<a
+                                        Submit papers through the <a
                                         href="https://openreview.net/group?id=ICML.cc/2025/Workshop/R2-FM">Workshop Submission Portal
-                                    </a>)
+                                    </a>on OpenReview.
                                     </p>
                                 <div style="font-family: system-ui, -apple-system, sans-serif;">
                                     <h1 style="font-family: 'Georgia', serif; font-size: 2.5rem; margin-bottom: 1.5rem; color: #2c5282; font-weight: 600;">Scope</h1>
@@ -413,7 +415,7 @@
                                 <p class="large text-muted">We welcome contributions across a broad spectrum of topics, including but not limited to:</p>
 
                             <ul class="large text-muted" style="float:left; width: 100%">
-                                <li>Theoretical foundations of FMs and related domains, including uncertainty quantification, continual learning, and reinforcement learning</li>
+                                <li>Theoretical foundations of FMs, including uncertainty quantification, continual learning, and reinforcement learning</li>
                                 <li>Empirical investigations into the reliability and responsibility of various FMs</li>
                                 <li>In-depth discussions exploring new dimensions of FM reliability and responsibility</li>
                                 <li>Interventions during pre-training to enhance the reliability and responsibility of FMs</li>
@@ -897,6 +899,8 @@
 
                 </div>
             </div>
+        </div>
+        </div>
         </div>
         </div>
         </div>
